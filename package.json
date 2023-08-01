@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier -w -l **/*.ts *.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nostr-dev-kit/ndk": "^0.7.7",
+    "lib": "^5.0.1",
+    "node-fetch": "^3.3.1",
+    "openai": "^3.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "@types/node": "^20.4.1"
+  }
+}
