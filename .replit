@@ -37,3 +37,7 @@ requiredFiles = [".replit", "replit.nix", ".config"]
   pattern = "**/{*.ts,*.js,*.tsx,*.jsx,*.json}"
     [languages.typescript.languageServer]
     start = "typescript-language-server --stdio"
+
+[deployment]
+deploymentTarget = "gce"
+ignorePorts = true
