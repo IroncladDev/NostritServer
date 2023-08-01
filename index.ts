@@ -17,8 +17,8 @@ const ndk = new NDK({
 
 Evt.setNDK(ndk);
 
-handleCodeReview(ndk);
-handleImageGen(ndk);
+handleCodeReview();
+handleImageGen();
 
 ndk.connect(2000).then(() => {
   console.log("Connected");
